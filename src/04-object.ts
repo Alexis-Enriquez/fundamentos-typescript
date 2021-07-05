@@ -10,7 +10,16 @@ user = {
 }
 
 console.log('user',user)
-console.log('user.username',user.username)//aca se genera un error ya que no es accesible la propiedad 
+//console.log('user.username',user.username)//aca se genera un error ya que no es accesible la propiedad 
 
 
 //object vs Object 
+
+//de la siguiente manera typescript considera al objeto como una instancia de la clase Object 
+const myObj = {
+    id:1,
+    username:"exi",
+    firstName:"eso e muy personal",
+    isADmin:true,
+}
+
