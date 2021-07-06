@@ -39,7 +39,7 @@ useless = undefined
 
 
 //Never
-//representa un tipo de valor que nunca ocurre com en funciones que lanzan exepciones o que nunca retornan valor
+//representa un tipo de valor que nunca ocurre como en funciones que lanzan exepciones o que nunca retornan valor
 
 function handleError (code:number, message:string):never{
 
